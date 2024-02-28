@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700,600,500,400,300,200,100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    height: 100vh;
+    /* border: 60px 60px 60px 60px solid #D3D8DE; */
+    border-top: 40px solid #D3D8DE;
+    border-bottom: 40px solid #D3D8DE;
+    border-left: 60px solid #D3D8DE;
+    border-right: 60px solid #D3D8DE;
+}
+
+.main_content {
+    background-color: #40485B;
+    max-width: 100%;
+    margin: auto;
+    height: 100%;
+    border: 2px solid #40485B;
+}
+
+.img1 {
+    height: 30px;
+    width: 20px;
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+    height: 17vh;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 50px;
+}
+
+nav ul li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #808698;
+}
+
+.buttons {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    height: 40px;
+    width: 110px;
+    color: #b5b9c6;
+    background-color: transparent;
+    /* border-radius: 30px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #ff00f8, #0073ff);
+    border-image-slice: 1;
+    box-sizing: content-box; */
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.nav_home {
+    color: rgb(96, 161, 186);
+}
+
+.video {
+    border-top: 30px solid rgba(128, 128, 128, 0.187);
+    border-bottom: 30px solid rgba(128, 128, 128, 0.187);
+    border-left: 30px solid rgba(128, 128, 128, 0.187);
+    border-right: 30px solid rgba(128, 128, 128, 0.187);
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video_sign {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 8px;
+}
+
+.main {
+    max-width: 76%;
+    margin: auto;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1_item1 h2 {
+    color: white;
+    border-bottom: 4px solid rgb(96, 161, 186);
+    font-style: italic;
+    width: 187px;
+    font-size: 45px;
+    font-weight: 200;
+}
+
+.box1_item1 h1 {
+    color: white;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.box1_item1 p {
+    color: #808698d8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.box1_item1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main_content_box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.b1_it2_more {
+    color: rgb(96, 161, 186);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 140px 0px 0px;
+}
+
+.box2_item1 img {
+    height: 500px;
+    width: 650px;
+    position: relative;
+    left: 10%;
+}
+
+.main_content_box2 {
+    display: flex;
+}
+
+.box2_item2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    max-width: 50px;
+    margin: auto;
+    position: relative;
+    top: 110px;
+    left: 51px;
+}
+
+.border {
+    border: 1px solid #808698d8;
+    height: 30vh;
+}
+
+.fb,
+.twitter,
+.instagram,
+.linkdin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px -13px 20px;
+}
+.main_content_box3{
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #ff41fa, #3384e8);
+    position: relative;
+    top: 24.5%;
+    gap: 90px;
+}
+.main_content_box3 .share{
+    margin: 0px 0px 0px -67px;
+}
+.main_content_box3 p{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
