@@ -196,7 +196,8 @@ button {
     align-items: center;
     margin: 0px 0px -13px 20px;
 }
-.main_content_box3{
+
+.main_content_box3 {
     width: 40vw;
     height: 20vh;
     display: flex;
@@ -207,10 +208,14 @@ button {
     top: 24.5%;
     gap: 90px;
 }
-.main_content_box3 .share{
+
+.main_content_box3 .share {
     margin: 0px 0px 0px -67px;
+    position: relative;
+    left: 9%;
 }
-.main_content_box3 p{
+
+.main_content_box3 p {
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
     display: flex;
